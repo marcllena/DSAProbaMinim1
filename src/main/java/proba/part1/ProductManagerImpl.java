@@ -37,6 +37,7 @@ public class ProductManagerImpl implements ProductManager {
     final static Logger log = Logger.getLogger(ProductManagerImpl.class);
 
     //Apart de les funcions demanades implemento:
+    //Faltaria posar el Log4j
     public void afagirProducte(Producto producte)
     {
         productes.add(producte);
